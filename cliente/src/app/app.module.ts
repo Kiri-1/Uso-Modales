@@ -11,6 +11,7 @@ import { SafeUrlPipe } from './component/safe-url.pipe';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { PdfButtonComponent } from './component/pdf-button/pdf-button.component';
+import { UsoCuadrosComponent } from './component/uso-cuadros/uso-cuadros.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { PdfButtonComponent } from './component/pdf-button/pdf-button.component'
     ModalComponent,
     PdfViewerModalComponent,
     SafeUrlPipe,
-    PdfButtonComponent
+    PdfButtonComponent,
+    UsoCuadrosComponent
   ],
   imports: [
     BrowserModule,
